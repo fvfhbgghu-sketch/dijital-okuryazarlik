@@ -39,7 +39,6 @@ export function LoginPage() {
         <div className="mb-6 text-center">
           <div className="mx-auto mb-3 grid h-14 w-14 place-items-center rounded-2xl bg-brand-600 text-2xl text-white">🔐</div>
           <h1 className="text-xl font-bold">Yönetici Girişi</h1>
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Supabase hesabınızla giriş yapın.</p>
         </div>
         <form onSubmit={onSubmit} className="space-y-4">
           <div>
