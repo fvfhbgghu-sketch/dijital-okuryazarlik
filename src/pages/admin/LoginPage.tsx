@@ -54,10 +54,6 @@ export function LoginPage() {
           </div>
           <Button type="submit" size="lg" className="w-full" loading={busy}>Giriş Yap</Button>
         </form>
-        <p className="mt-5 rounded-lg bg-slate-100 p-3 text-xs text-slate-500 dark:bg-slate-800 dark:text-slate-400">
-          Yönetici hesapları Supabase Auth üzerinde yönetilir. Bir kullanıcıya yetki vermek için
-          {' '}<code>select grant_admin('email');</code> komutunu SQL editöründe çalıştırın.
-        </p>
       </div>
     </div>
   )
